@@ -1,2 +1,2 @@
 # API
-An API for the Eskimo EPOS
+An API for the Eskimo EPOS.
