@@ -18,18 +18,22 @@ Configuration is contained within [eskimo.php](eskimo.php), but can moved to an 
 A few simple examples have been provided for CSCart within [cscart.php](examples/cscart.php).
 
 
-### Initialise class
+#### Initialise class
 ```
 $cscart = new cscart($config);
 ```
 
-### Obtains, sorts and uploads full list of categories
+#### Obtains, sorts and uploads full list of categories
 ```
 $res = $cscart->ul_categories();
 ```
 
-### Obtains and uploads full list of tax codes
+#### Obtains and uploads specified list of products
 ```
-$res = $cscart->ul_tax_codes();
+$api_opts = array(
+  	"StartPosition" 	=> 1,
+  	"RecordCount" 		=> 999,
+  	"TimeStampFrom" 	=> "01-04-2014 08:15:30",
+);
+$res = $cscart->ul_products($api_opts, $sku = FALSE);
 ```
-
