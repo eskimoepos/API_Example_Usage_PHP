@@ -1,5 +1,5 @@
 <?php
-require 'php-curl-class-master/src/Curl/Curl.php';
+require 'php-curl-class/src/Curl/Curl.php';
 
 use \Curl\Curl;
 
