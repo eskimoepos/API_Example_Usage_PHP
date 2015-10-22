@@ -15,5 +15,5 @@ Initial API setup and proof of concept with CSCart.  This is a work in progress 
 
 Configuration is contained within [eskimo.php](eskimo.php), but can moved to an alternative method.
 
-A few simple examples have been provided within [examples.php](examples.php).
+A few simple examples have been provided for CSCart within [cscart.php](examples/cscart.php).
 
