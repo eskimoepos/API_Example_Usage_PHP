@@ -1,4 +1,5 @@
 <?php
+require 'php-curl-class/src/Curl/CaseInsensitiveArray.php';
 require 'php-curl-class/src/Curl/Curl.php';
 
 use \Curl\Curl;
